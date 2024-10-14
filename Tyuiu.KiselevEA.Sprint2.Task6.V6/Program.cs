@@ -27,12 +27,12 @@ namespace Tyuiu.KiselevEA.Sprint2.Task6.V6
             int k, m;
 
             Console.WriteLine("Введите номер карты(6-14): ");
-            k = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Введите номер масти(1-4): ");
             m = Convert.ToInt32(Console.ReadLine());
 
-            if((k < 6) && (k > 14))
+            Console.WriteLine("Введите номер масти(1-4): ");
+            k = Convert.ToInt32(Console.ReadLine());
+
+            if((m < 6) && (m > 14))
             {
                 Console.WriteLine("Такой карты нет.");
             }
